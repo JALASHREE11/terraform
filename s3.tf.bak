@@ -1,0 +1,7 @@
+resource "aws_s3_bucket" "example" {
+  bucket = "my-unique-bucket199912"
+  #acl    = "private" 
+  tags = {
+    Name= "First S3 Bucket"
+  }
+}
